@@ -1,0 +1,7 @@
+s='ENGINEERING'
+res=''
+vow='AEIOUaeiou'
+for i in s:
+    if i in vow:
+        res+=i
+print(res)
